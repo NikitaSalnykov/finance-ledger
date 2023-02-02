@@ -16,48 +16,53 @@
 
   <header class="header">
     <div class="container header-container">
-      <a class="logo" href=""><span class="accent-logo">Finance</span> Ledger</a>
+      <a class="logo" href=""> <svg width="39px" height="31px">
+          <use href="./img/svg/symbol-defs.svg#icon-logo"></use>
+        </svg> <span class="accent-logo">Finance</span> Ledger</a>
       <nav>
         <ul class="nav-list">
-          <li class="nav-item"><a href=""></a>Home</li>
-          <li class="nav-item"><a href=""></a>About</li>
-          <li class="nav-item"><a href=""></a>Cases</li>
-          <li class="nav-item"><a href=""></a>Blog</li>
-          <li class="nav-item"><a href=""></a>Contact</li>
+          <li class="nav-item"><a href="/index.html">Home</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#cases">Cases</a></li>
+          <li class="nav-item"><a href="#blog">Blog</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <!-- ===========================HERO================================= -->
-  <section class="hero">
-    <div class="container ">
+  <section class="hero-section">
+    <div class="container-walpper hero-container">
       <h1 class="hero-title">The Sky Is the Limit</h1>
-      <p class="">We provide world class financial assistance</p>
+      <p class="hero-text">We provide world class financial assistance</p>
       <a class="button-green" href="">Read More</a>
     </div>
   </section>
   <!-- ===========================Solutions================================= -->
-  <section>
-    <div class="container">
-      <h2>Solutions</h2> <!--hidden-->
+  <section class="section solutions-section">
+    <div class="container-walpper solutions-container">
+      <h2 class="visually-hidden">Solutions</h2> <!--hidden-->
       <img src="./img/about-team.jpg" alt="Team" width="670px">
-      <p class="sub-text">What you are looking for</p>
-      <h3 class="title title-about ">We provide bespoke solutions</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
-        asperiores
-        nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores
-        deleniti?
-      </p>
-      <a class="button-link" href="">Read More</a>
+      <div class="sultions-info-container">
+        <p class="sub-text">What you are looking for</p>
+        <h3 class="title title-solutions ">We provide bespoke solutions</h3>
+        <p class="text-descripton">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum
+          dignissimos quae laudantium
+          asperiores
+          nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores
+          deleniti?
+        </p>
+        <a class="button-link" href="">Read More</a>
+      </div>
     </div>
   </section>
   <!-- ===========================BUSINESS CASES================================= -->
-  <section class="section-business">
+  <section id="cases" class="section section-business">
     <div class="container">
-      <p class="sub-text ">This is what we do</p>
+      <p class="sub-text sub-text-business">This is what we do</p>
       <h2 class="title">Business Cases</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-      <ul>
+      <p class="text-descripton">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+      <ul class="business-cases-list">
         <li> <img src="./img/case-1.jpg" alt="Case 1" width="421px"></li>
         <li> <img src="./img/case-2.jpg" alt="Case 2" width="421px"></li>
         <li> <img src="./img/case-3.jpg" alt="Case 3" width="421px"></li>
@@ -68,81 +73,192 @@
     </div>
   </section>
   <!-- ===========================BLOG================================= -->
-  <article class="article-blog">
-    <div class="container">
-      <h2>Blog</h2> <!--hidden-->
-      <p class="sub-text ">April 16 2020</p>
-      <h3 class="title">Blog Post One</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
-        asperiores
-        nam
-        aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
-      </p>
-      <a class="button-link" href="">Read Our Blog</a>
+  <article id="blog" class="section">
+    <div class="container-walpper article-blog-container">
+      <div class="article-overlay">
+        <h2 class="visually-hidden">Blog</h2> <!--hidden-->
+        <p class="sub-text ">April 16 2020</p>
+        <h3 class="title">Blog Post One</h3>
+        <p class="text-descripton">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum
+          dignissimos
+          quae laudantium
+          asperiores
+          nam
+          aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores
+          deleniti?
+        </p>
+        <a class="button-link" href="">Read Our Blog</a>
+      </div>
       <img src="./img/blog.jpg" width="670px" alt="">
     </div>
   </article>
   <!-- ===========================ABOUT US================================= -->
-  <section class="section-about">
-    <div class="container">
-      <h2>ABOUT US</h2> <!--hidden-->
-      <p class="sub-text ">Who we are</p>
+  <section class="section about-section">
+    <div class="container about-container">
+      <h2 class="visually-hidden">ABOUT US</h2> <!--hidden-->
+      <p class="sub-text">Who we are</p>
       <h3 class="title">Our Professional Team</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-      <ul>
-        <li>
-          <img src="./img/team-1.jpg" width="421px" alt="">
-          <h2>John Doe</h2>
-          <p>President</p>
+      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+      <ul class="about-list">
+        <li class="about-item">
+          <div class="thumb">
+            <img src="./img/team-1.jpg" width="421px" alt="">
+            <ul class="about-item-list">
+              <li class="">
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h4 class="about-item-title">John Doe</h4>
+          <p class="about-item-text">President</p>
         </li>
-        <li>
-          <img src="./img/team-2.png" width="421px" alt="">
-          <h2>Jane Doe</h2>
-          <p>Vice President</p>
+        <li class="about-item">
+          <div class="thumb">
+            <img src="./img/team-2.jpg" width="421px" alt="">
+            <ul class="about-item-list">
+              <li class="">
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h4 class="about-item-title">Jane Doe</h4>
+          <p class="about-item-text">Vice President</p>
         </li>
-        <li>
-          <img src="./img/team-3.jpg" width="421px" alt="">
-          <h2>Steve Smith</h2>
-          <p>Marketing Head</p>
+        <li class="about-item">
+          <div class="thumb">
+            <img src="./img/team-3.jpg" width="421px" alt="">
+            <ul class="about-item-list">
+              <li class="">
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="sns-icon" href="">
+                  <svg width="35" height="35">
+                    <use href="./img/svg/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h4 class="about-item-title">Steve Smith</h4>
+          <p class="about-item-text">Marketing Head</p>
         </li>
       </ul>
     </div>
   </section>
   <!-- ===========================CALL BACK================================= -->
   <section class="section-callback">
-    <div class="container">
-      <img src="./img/callback.jpg" width="421px" alt="">
-      <h2 class="title">Request Callback</h2>
-      <input type="Enter your name">
-      <input type="Enter email*">
-      <button class="button-green">Send</button>
+    <div class="container-walpper callback-container">
+      <img src="./img/callback.jpg" width="670px" alt="">
+      <div class="callback-info-container">
+        <h2 class="title">Request Callback</h2>
+        <input id="contact" class="input-callback" type="text" placeholder="Enter your name">
+        <input class="input-callback" type="text" placeholder="Enter email*">
+        <button type="button" class="button-green button-callback">Send</button>
+      </div>
     </div>
   </section>
   <!-- =========================FOOTER================================ -->
   <footer class="footer">
-    <div class="container">
-      <!-- <ul>
-            <li>
-              <svg>
-                <use></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use></use>
-              </svg>
-            </li>
-            <li>
-              <svg>
-                <use></use>
-              </svg>
-            </li>
-          </ul> -->
+    <div class="container footer-container">
+      <ul class="footer-list">
+        <li class="">
+          <a class="sns-icon" href="">
+            <svg width="35" height="35">
+              <use href="./img/svg/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="sns-icon" href="">
+            <svg width="35" height="35">
+              <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="sns-icon" href="">
+            <svg width="35" height="35">
+              <use href="./img/svg/symbol-defs.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="sns-icon" href="">
+            <svg width="35" height="35">
+              <use href="./img/svg/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
       <p>Copyright &copy 2021 - Finance</p>
     </div>
   </footer>

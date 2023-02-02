@@ -1,0 +1,134 @@
+/* Variables */
+:root {
+--primary-brand-color: #28A745;
+--text-color-light: #ffffff;
+--color-dark: #333333;
+--main-background-color: #E5E5E5;
+--socondary-background-color: #F4F4F4;
+--article-color: #0284D0;
+--grey-color: #808080;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28/18);
+  color: var(--text-color-light);
+margin: 0;
+  background-color: thistle;
+} 
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+} 
+
+h1,h2,h3,h4,h5,h6,p,ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1300px;
+  padding-left: 30px;
+  padding-right: 30px;
+margin: 0 auto;
+}
+/* =========================HEADER=============================== */
+.header {
+    position: absolute;}
+    
+.header-container {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+
+}
+
+.logo {
+  font-size: 35px;
+  line-height: calc(42/35);
+}
+
+.accent-logo {
+  color: #28A745;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+/* ===========================HERO================================= */
+.hero {
+  
+}
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: calc(66/55);
+  color: #E9E9E9;
+}
+
+.button-hero {
+  font-weight: 400;
+  border: 1px solid var(--primary-brand-color);
+  border-radius: 5px;
+  padding: 12px 34px;
+  background-color: #28A745;
+}
+
+/* ===========================Solutions================================= */
+.sub-text 
+{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(33/20);
+}
+
+.button-link {
+  font-weight: 400;
+  border: 1px solid var(--text-color-light);
+  border-radius: 5px;
+  padding: 12px 34px;
+}
+
+.title {
+font-size: 38px;
+line-height: calc(48/38);
+}
+
+.title-about {
+  color: var(--text-color-light);
+}
+
+/* ===========================BUSINESS CASES================================= */
+.section-business {
+  color: var(--color-dark);
+
+}
+
+/* ===========================BLOG================================ */
+.article-blog {
+
+}
+/* ===========================ABOUT US================================= */
+.section-about {
+color: var(--color-dark);
+}
+/* ===========================CALL BACK================================= */
+.section-callback {
+color: var(--color-dark);
+}
+ /* =========================FOOTER================================ */
+.footer {
+
+}

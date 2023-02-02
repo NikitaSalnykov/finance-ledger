@@ -375,6 +375,10 @@ text-align: center;
   gap: 25px;
   justify-content: center;
 }
+.footer-container .text {
+  margin-top: 6px;
+}
+
 .sns-icon {
   fill: #ffffff;
   transition: var(--transition-duration) var(--transition-timing-function);

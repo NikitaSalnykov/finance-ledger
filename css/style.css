@@ -331,10 +331,7 @@ line-height: calc(28/18);
 padding-left: 8px;
 color: #808080;
 }
-
-.input-callback + .input-callback {
-  margin-top: 32px;
-}
+.input-callback{margin-top: 32px;}
 .button-callback{
   min-width: 642px;
 
@@ -376,13 +373,11 @@ text-align: center;
   justify-content: center;
 }
 .footer-container .text {
-  margin-top: 6px;
 }
 
 .sns-icon {
   fill: #ffffff;
   transition: var(--transition-duration) var(--transition-timing-function);
-
 }
 
 .sns-icon:hover, .sns-icon:focus {
